@@ -58,15 +58,6 @@ Ensure the log file is in the correct format and accessible by the script to avo
 
 To run this project, you need to have Python 3.x installed on your machine. You can download it from the [official Python website](https://www.python.org/downloads/).
 
-### Install Required Packages
-
-You can install the required packages using `requirements.txt` file
-
-Then, run the following command to install the dependencies:
-
-```sh
-pip install -r requirements.txt
-```
 
 ## How to Run
 
@@ -80,10 +71,19 @@ To run this project, follow these steps:
     ```sh
     cd Loganalysis
     ```
-3. **Prepare the Log File**: Ensure you have a log file in a readable format.
-4. **Run the Script**: Execute the script and provide the path to the log file when prompted:
+3. **Install Required Packages**:
+
+You can install the required packages using `requirements.txt` file
+
+Then, run the following command to install the dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+4. **Prepare the Log File**: Ensure you have a log file in a readable format.
+5. **Run the Script**: Execute the script and provide the path to the log file when prompted:
     ```sh
     python log_analysis.py
     ```
-5. **View Results**: The script will display the analysis results in the console and save them to a CSV file named `log_analysis_results.csv`.
+6. **View Results**: The script will display the analysis results in the console and save them to a CSV file named `log_analysis_results.csv`.
 
