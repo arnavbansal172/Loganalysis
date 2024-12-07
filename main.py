@@ -102,8 +102,12 @@ def save_to_csv(ip_requests, endpoints, suspicious_activity):
         writer.writerow([])
         writer.writerow(['Most Accessed Endpoint'])
         writer.writerow(['Endpoint', 'Access Count'])
-        for endpoint, count in endpoints:
-            writer.writerow([endpoint, count])
+        writer.writerow([endpoints[0][0], endpoints[0][1]])
+
+        #this can be used to write all the endpoints to the CSV file
+        '''for endpoint, count in endpoints:
+            writer.writerow([endpoint, count])'''
+        
         writer.writerow([])
     
         if suspicious_activity:

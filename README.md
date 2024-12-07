@@ -1,9 +1,4 @@
 # Loganalysis
-VRV Security task - LOG analysis
-
-Hello this is Arnav Bansal
-VRV Security's assignment
-
 ## Overview
 
 This project is a log analysis tool designed to analyze web server logs. It provides functionalities to count requests per IP address, count requests per endpoint, identify potential brute force attempts, and save the results to a CSV file.
