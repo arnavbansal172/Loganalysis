@@ -72,14 +72,12 @@ To run this project, follow these steps:
     cd Loganalysis
     ```
 3. **Install Required Packages**:
+    You can install the required packages using `requirements.txt` file
+    Then, run the following command to install the dependencies:
 
-You can install the required packages using `requirements.txt` file
-
-Then, run the following command to install the dependencies:
-
-```sh
-pip install -r requirements.txt
-```
+    ```sh
+    pip install -r requirements.txt
+    ```
 4. **Prepare the Log File**: Ensure you have a log file in a readable format.
 5. **Run the Script**: Execute the script and provide the path to the log file when prompted:
     ```sh
